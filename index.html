@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios clase 4</title>
+</head>
+
+<body>
+    <script>
+        //1.- crear función que se llame triplicador que tome un número como input y retorne el triple de ese valor.
+        function triple(numero) {
+            let triple = numero * 3;
+            return triple;
+        }
+        //una función multiplicador que tome dos números como parámetros y devuelva el producto de los dos.
+        function multiplicador(x, y) {
+            let multiplicador = x * y;
+            return multiplicador;
+        }
+        //una función división que tome dos números como parámetros y devuelva el resultado del módulo del primero sobre el segundo.
+        function divisor(x, y) {
+            let divisor = (x / y);
+            return divisor;
+        }
+        function modulo(x, y) {
+            let modulo = (y / x)
+            return modulo
+        }
+        // calcula el valor de triplicar 5, luego multiplicar eso por 12, dividir por 12 y encontrar el resto de dividir eso en 3//
+
+        let resultado = modulo(divisor(multiplicador(triplicador(5), 12), 12), 3)
+        console.log = resultado
+
+
+        // Ejercicio asincrónico 03: escribir una función llamada contarDeA_n que tenga los parámetros contar_de_a //
+        // y contar_hasta. Además, deberá escribir en la consola los números desde el 1 hasta contar_hasta en intervalos de contar_de_a //
+
+        function contarDeA_n (contar_de_a, contar_hasta){
+            const contarDeA_n = (contar_de_a==2 (contar_hasta==10));
+            console.log = contarDeA_n;
+        }
+    
+
+        //Ejercicio asincrónico 04: deberás escribir una nueva versión de FizzBuzz (fizzBuzz2) que
+        //tome dos Strings como Argumento y reimplemente el FizzBuzz original.
+        //Elegí una palabra para cada String (palabra1 y palabra2) que reemplace a Fizz y a Buzz.
+
+        function fizzBuzz2 (palabra1, palabra2){
+            let fizzBuzz2 = (palabra1=='Fizz') (palabra2=='Buzz');
+        }
+        let num = 1;
+        while (num <= 100) {
+
+            if ((num % 3 === 0) && (numero % 5 === 0)) {
+                console.log(palabra1 + palabra2);
+            }
+            if (num % 3 === 0) {
+                console.log(palabra1);
+            }
+            if (num % 5 === 0) {
+                console.log(palabra2);
+            }
+            num++;
+            }
+    </script>
+</body>
+
+</html>
